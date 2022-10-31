@@ -40,6 +40,11 @@ background-size: cover;
             padding: 0 5px 10px 5px;
       }
 
+/*       span {
+            font-size: 20px;
+            letter-spacing: 5px;
+            color: #000;
+      } */
       span {
             font-size: 20px;
             letter-spacing: 5px;
@@ -79,7 +84,14 @@ background-size: cover;
 <body>
       <form action="">
             <input type="number" id="input" placeholder="Enter any number to chek leap or not">
-               <div class="btn">
+<!--                <div class="btn">
+                  <button id="btn">check leapyear</button>
+                  <button id="reset">Reset</button>
+               </div>
+            <div class="result">
+                  <span id="result"></span>
+            </div> -->
+	         <div class="btn">
                   <button id="btn">check leapyear</button>
                   <button id="reset">Reset</button>
                </div>
@@ -118,6 +130,22 @@ background-size: cover;
 
 
       })
+	
+// 	           }
+//             else if (input % 400 == 0 && input % 100 ==0) {
+
+//                   result.innerText = `The enter number ${input} is leap year`;
+
+//             }
+		
+// 		else if ((input % 4 ==0) &&  (input % 100 != 0) ) {result.innerText = `The enter number ${input} is leap year`;}
+//             else {
+
+//                   result.innerText = `The enter number ${input} is not leap year`;
+//             }
+
+
+//       })
 
 
 </script>
